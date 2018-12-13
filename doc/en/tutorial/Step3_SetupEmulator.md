@@ -26,7 +26,12 @@ We will use an emulator (Android Virtual Device) to run the Mobile Application d
 8.	Click the start icon under Actions to start the emulator for the first time.  It may takes some time.  
 ![s7d](./imgs/s7d.png)  
 
-9.	Here is how the emulator looks like.  **Shutdown the emulator for now**.  
+9.	Here is how the emulator looks like.    
 ![s7e](./imgs/s7e.png)  
+
+10. (Optional) If proxy is needed, follow the screen shot below to add proxy information to emulator.
+![s7f](./imgs/s7f.png)
+
+11. **Shutdown the emulator for now**.
 
   
