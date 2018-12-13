@@ -1,4 +1,4 @@
-## Step 4:  Import sample data to Mobile Backend 
+## Step 5:  Import sample data to Mobile Backend 
 
 The Mobile Application described in this tutorial needs sample data.  Use the Huawei Mobile Backend Dashboard to import the data.  
 

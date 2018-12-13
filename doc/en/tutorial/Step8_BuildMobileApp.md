@@ -1,4 +1,4 @@
-## Step 5:  (Optional) Build Mobile App using React Native
+## Step 8:  (Optional) Build Mobile App using React Native
 
 This step explains how to build the Mobile application sample described in this tutorial.  React Native library version 0.57.1 is used for development.  
 

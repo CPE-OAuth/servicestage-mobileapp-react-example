@@ -2,9 +2,9 @@
 
 ### Enable Virtualization in BIOS
 
-Android Studio emulator requires hardware acceleration.  It is done by enabling virtualization from the machine’s BIOS.  
+Android Studio emulator requires hardware acceleration.  It is done by enabling virtualization from the machineâ€™s BIOS.  
 1.	Find out how to get into BIOS menu of your laptop or desktop.  It usually involvse rebooting the machine and pressing some function key(s), e.g. F2.  
-2.	Once inside the BIOS menu, look for “Virtualization Support” items.  Enable them.
+2.	Once inside the BIOS menu, look for â€œVirtualization Supportâ€� items.  Enable them.
 
 ***
 
@@ -72,6 +72,25 @@ This tutorial uses **Android SDK Platform 25, 26, 27** and **Google APIs Intel x
 
 ***
 
+### Setup Environment Variable
+
+We need to add adb.exe (Android Debug Bridge) to PATH variable and JAVA_HOME variable.    
+adb.exe is located in C:\Users\{{Your Username}}\AppData\Local\Android\Sdk\platform-tools in Windows 10.     
+JAVA_HOME is where Java JDK is installed.  
+
+1.  Search for **System Properties** in the Windows Start Menu.  Open System Properties panel.  
+![s2o1](./imgs/s2o1.png)         
+
+2.  Click **Environment Variable** button to open the Environment Variable panel.
+![s2o2](./imgs/s2o2.png)
+
+3.  Look for **Path** under User Variables section.  Edit it and add the folder containing adb.exe to the path.  
+
+4.  If JAVA_HOME is not set in the System Variables section, add JAVA_HOME.
+  
+
+***
+
 ### (Optional) Setup Node.js
 
 Node JS is a SDK / Programming Language used in this tutorial.   The version of Node.js used in this tutorial is v10.13.0.  Follow the step below to install Node.js.  
@@ -83,7 +102,7 @@ Node JS is a SDK / Programming Language used in this tutorial.   The version of 
 
 3.	Follow the instructions to install Node.js.    
 
-4.	After installation is completed, verify the installation by opening the Command Prompt.  Run ‘node –v’ and ‘npm –v’ to verify installation and version.  
+4.	After installation is completed, verify the installation by opening the Command Prompt.  Run â€˜node â€“vâ€™ and â€˜npm â€“vâ€™ to verify installation and version.  
 ![s2q](./imgs/s2q.png)  
 
 5.	(Optional)  Proxy setup.  Depending on the location of the laptop / desktop, proxy settings may be needed.  Run the following command to configure proxy.  Change the proxy host and port to your company proxy accordingly.  
