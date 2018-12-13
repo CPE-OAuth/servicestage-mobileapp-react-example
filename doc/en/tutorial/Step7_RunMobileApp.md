@@ -19,7 +19,7 @@ At this point, setup of the Mobile Application sample, Android Studio and Emulat
 ```
 ![s8e](./imgs/s8e.png) 
 
-5.	Open a command prompt, change to **{{path to}}/servicestage-mobileapp-react-example**.  
+5.	Open another command prompt, change to **{{path to}}/servicestage-mobileapp-react-example**.  
 
 6.	Run the following command to bundle the react native code.  Note:  This is for running the sample from Android Studio.  Modified code needs to be repackaged again to be effective.  (note: there are other alternatives to run react native code on emulator).  
 
